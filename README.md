@@ -13,9 +13,18 @@
 _Note de moi-même : A creuser, car bonne pratique SQL mais semble incompatible avec les bonnnes pratiques de POO... du moins sans connaissances des design patterns adequats_<br/>
 - Monitoring : pour bug ou optis, ce qui va permettre, si action s'en suit, de moins consommer de bande passante, de ressources ... <br/>
 _Note de moi-même : évidemment, si monitoring sans actions suite à une trouvaille, cela devient finalement une consommation inutile de ressources... A équilibrer entre le fait que cela devienne un support pour peser dans la balance pour faire ou non des optis._
+- Attention aux tests qui scannent l'ensemble du code pour le commit d'un fichier...
 
 #### Présentation de l'outil Fruggr
 Installé en plusieurs endroits : serveur et extension navigateur<br/>
 Cet outil est :
 - un outil de mesure de la mise en place des bonnes pratiques de décarbonation
 - un outil d'analyse des usages et d'évaluation de l'impact de l'infrastructure (à creuser ^^')
+
+### Symfony UX
+- contient pas mal de ficheir JS... même si c'est Symfony !!
+- Stimulus : binder JS <-> DOM
+#### Avantages 
+- Parfois pas besoin de faire du JS du tout
+- pas besoin de dupliquer les règles métier dans les vues _Note de moi-même : avec la séparation des couches, à creuser..._
+- Front testé en partie, comme le reste du code PHP en tout cas. (pas de end-to-end non plus !!!)
