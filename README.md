@@ -20,7 +20,7 @@ Installé en plusieurs endroits : serveur et extension navigateur<br/>
 Cet outil est :
 - un outil de mesure de la mise en place des bonnes pratiques de décarbonation
 - un outil d'analyse des usages et d'évaluation de l'impact de l'infrastructure (à creuser ^^')
-
+***
 ### Symfony UX
 - contient pas mal de ficheir JS... même si c'est Symfony !!
 - Stimulus : binder JS <-> DOM
